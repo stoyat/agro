@@ -1,0 +1,26 @@
+<?
+//validator for select 
+namespace frontend\validators;
+
+
+use yii\validators\Validator;
+
+class TypeAdvertValidator extends Validator{
+
+    public function validateAttribute($model,$attribute){
+
+        $value = $model->$attribute;
+//'Buy','Rent','Sale'- fields in select
+
+        if(!in_array($value,['Buy','Rent','Sale'])){
+            $this->addError($model,$attribute,'Not required value');
+        }
+    }
+
+
+}
+
+//in model 
+//namespace frontend\validators
+//class TypeAdvertValidator
+['type','frontend\validators\TypeAdvertValidator']

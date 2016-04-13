@@ -1,0 +1,169 @@
+
+body {
+	width: 100%;
+	background: url(../img/IMG/bg-index.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: auto;
+}
+.adv_block {
+	height: 150px;
+	padding: 0;
+	text-align: center;
+}
+.language {
+	float: right;
+	margin-right: 5px;
+}
+.lang_icon {
+	float: right;
+	margin-top: -120px;
+	margin-right: 0px;
+}
+.contacts {
+	float: right;
+	margin-top: -65px;
+	margin-right: 5px;
+}
+.logo {
+	width: 350px;
+	height: 235px;
+	margin-left: -120px;
+	margin-top: -80px;
+}
+.title {
+	text-align: center;
+	margin-left: -95px;
+	margin-top: 85px;
+}
+
+.cabinet {
+	float: right;
+	text-align: center;
+	margin-right: 45px;
+}
+.cabinet a {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: underline;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+}
+.button1 {
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px; 
+}
+.qwer {
+	width: 200px;
+}
+}
+.form-search {
+	float: right;
+	margin-top: 100px;
+}
+.search_big {
+	display: block;
+	position: absolute;
+	left: 420px;
+	top: 90px;
+}
+.form-search .btn {
+	position: absolute;
+	right: 23px;
+	top: 50px;
+	width: 150px;
+	height: 34px;
+	background: url(../img/IMG/button.png) repeat-x;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+}
+.form-search .btn:hover {
+	background-color: #265a88;
+}
+.input-medium {
+	position: absolute;
+	width: 400px;
+	height: 35px;
+	left: 13px;
+	top:50px;
+}
+
+.info_block {
+	float: right;
+	background-color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	width: 250px;
+	height:200px;
+	margin-right: -10px;
+}
+.large_menu {
+	margin-top: 100px;
+	text-align: center;
+}
+.second_line {
+	margin-top: 25px;
+}
+
+.first_line img {
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+.first_line img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.second_line img {
+	transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+.second_line img:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+.search_map {
+	margin-top: 50px;
+	text-align: center;
+}
+.search_map .btn-default {
+	width: 200px;
+}
+.map {
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: -10px;
+	height: 500px;
+
+	font-size: 40px;
+}
+.social {
+	float: right;
+	text-align: right;
+}
+.menu {
+	margin-top: 50px;
+	text-align: center;
+}
+.menu ul li {
+	display: inline;
+	padding: 0 25px;
+	font-size: 14px;
+}
+.menu ul li a {
+	color: #fff;
+}
+.logo_bottom {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 50px;
+}
+.globe {
+	margin-top: 70px;
+	margin-left: 105px;
+}
